@@ -4,4 +4,4 @@
 
 <p>Cadastro de Empresa</p>
  
-![Texto Alternativo](imagens/servidor-php.png)
+![Texto Alternativo](servidor-php.png)
