@@ -2,6 +2,6 @@
 
 <h1>README</h1>
 
-<p>Cadastro de Empresa</p>
+<h2>Cadastro de Mysql<h2>
  
 ![Texto Alternativo](servidor-php.png)
