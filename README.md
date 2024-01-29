@@ -1,6 +1,6 @@
 # API_PHP_MYSQL
 
-<h1>README EM ANDAMENTO</h1>
+<h1>README</h1>
 
 <h2>Cadastro de Mysql<h2>
  
