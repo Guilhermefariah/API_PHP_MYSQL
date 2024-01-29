@@ -14,4 +14,11 @@
             $texto
       </div>";
     }
+
+    function mostra_data($data){
+        $d = explode("-", $data);
+        $escrevre = $d[2] . "/" . $d[1] . "/" . $d[0];
+        return $escrevre;
+    }
+    
 ?>
