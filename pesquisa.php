@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pesquisa</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -37,6 +38,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
+                            <th scope="col">Foto</th>
                             <th scope="col">Nome</th>
                             <th scope="col">Endereço</th>
                             <th scope="col">Telefone</th>
@@ -53,11 +55,13 @@
                             $endereco = $linha["endereco"];
                             $telefone = $linha["telefone"];
                             $email = $linha["email"];
+                            $foto = $linha['foto'];
                             $data_nascimento = $linha["data_nascimento"];
                             $data_nascimento = mostra_data($data_nascimento);
 
                             echo " <tr>
-                            <th scope='row'>$nome</th>
+                            <th><img src='img/$foto' class='lista_foto'></th>
+                            <th scope='row'>$nome</th>                          
                             <td>$endereco</td>
                             <td>$telefone</td>
                             <td>$email</td>
