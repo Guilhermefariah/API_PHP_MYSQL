@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +12,7 @@
     <div class="container">
         <div class="row">
             <?php 
+                include "../validar.php";
                 include "conexao.php";
 
                 $nome = $_POST["nome"];
