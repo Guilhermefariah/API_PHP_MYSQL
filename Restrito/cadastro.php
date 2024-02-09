@@ -12,11 +12,11 @@
         <div class="row">
             <?php 
                 include "conexao.php";
-
-                $nome = $_POST["nome"];
-                $endereco = $_POST["endereco"];
-                $telefone = $_POST["telefone"];
-                $email = $_POST["email"];
+                
+                $nome = clear($conn, $_POST["nome"]);
+                $endereco = clear($conn, $_POST["endereco"]);
+                $telefone = clear($conn, $_POST["telefone"]);
+                $email = clear($conn, $_POST["email"]);
                 $data_nascimento = $_POST["data_nascimento"];
 
                 $foto = $_FILES["foto"];
