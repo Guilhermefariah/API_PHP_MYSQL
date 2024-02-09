@@ -1,8 +1,8 @@
 # API_PHP_MYSQL
 
 ![Texto Alternativo](mysql.png)
-
-<h1>Formulario de Cadastro! <h1>
+<h2>Formulario de Cadastro! <h2>
+<h1>login: guilherme | Senha: guilherme <h1>
 
 ## 📚 Sobre
 
